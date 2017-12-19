@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+
+
+"""setup.py: setuptools control."""
+
+
+import re
+from setuptools import setup
+
+
+version = re.search(
+    '^__version__\s*=\s*"(.*)"',
+    open('src/main.py').read(),
+    re.M
+    ).group(1)
+
+
+with open("README.rst", "rb") as f:
+    long_descr = f.read().decode("utf-8")
+
+
+setup(
+    name = "xa",
+    packages = ["xa"],
+    entry_points = {
+        "console_scripts": ['xa = src.main:main']
+        },
+    version = version,
+    description = "Python command to ....",
+    long_description = long_descr,
+    author = "Robert Blackwell",
+    author_email = "rob@whiteacorn.com",
+    url = "http://blackwellapps.com",
+    )
