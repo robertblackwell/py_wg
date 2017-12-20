@@ -90,13 +90,13 @@ def pipe_to_buffer(**kwargs) :
 	"""reads from a pipe connected to a child process's stdout.
 	Saves each line in a line_buffer associated with a Proc instance.
 	After EOF is detected (zero-length read) calls proc.process.wait() to wait
-	on the termination of the child process. Signals this termination to
-	the main process via proc.event.set()
+	on the termination of the child process. 
+	Once child process is finished acquire semaphore that protects the outfile
+	and writes all line to outfile. After releasing the semphore
+	signals the main process that a Proc is available via proc.event.set()
 
 	Keyword args:
-
 		"proc" - a proc instance
-
 	Returns
 		nothing
 	"""
@@ -138,76 +138,58 @@ class Proc :
 
 	def __init__(self, id_num, outfile, queue, event, semaphore, pid_flag):
 		self.active = False
+		# index into the proc table
 		self.id_num = id_num
-		self.outfile = outfile
+		# where commdn output goes
+		self.outfile = outfile 
+		# protects concurrent access to outfile
 		self.semaphore = semaphore
+		# options to print pid at start of each output line
 		self.pid_flag = pid_flag
+		# command string to run
 		self.cmd = None
+		# group of args to add to command string
 		self.args = None
+		# child process that will be popen'd to run command
+		self.subprocess = None
+		# thread that will read from child process stdout
 		self.thread = None
+		# buffer that will hold lines of output from child process while it is running
+		self.line_buffer = []
+		# event that will signal main process that a proc instance has completed
 		self.event = event
+		# obsolete
 		self.queue = queue 	# a common queue shared by all Procs - this is where procs signal to parent process that
 							# the child subprocss is complete
-		self.thread = None
-		self.subprocess = None
-		self.line_buffer = []
 
 	def prime(self, cmd, args) :
-		""" adds the cmd avd args value to this proc in prep for starting 
-			cmd array of strings
-			args array of strings
+		""" adds a new cmd and args value to this proc in prep for starting 
+			cmd - array of strings, command perhaps with options
+			args array of strings, additional command line tokens
 		"""
 		self.cmd = cmd
 		self.args = args
-
-	def pipe_to_buffer(self, process):
-
-		pid = process.pid
-		""" reads from this instances child process stdout and stashes the lins read into a line_buffer in this instance"""
-		pipe = self.process.stdout
-		while True:
-			line = pipe.readline()
-			if len(line) == 0:
-				break;
-			# queue.put(line)
-
-			tmp_pid = os.getpid()
-			if self.pid_flag :
-				self.line_buffer += ["[{pid}] ".format(pid=self.process.pid) + line]
-			else:
-				self.line_buffer += [line]
-		# here when reading has finished - that is when the chlid process has finished and the
-		# reader thread is about to finish
-		if DEBUG :
-			print "pipe_to_buffer {id}".format(id=self.id_num)
-
-		if QWAIT :
-			self.queue.put(self)
-
 
 	def start(self) :
 		""" this is where the heavy lifting is done
 			-	start a new child process and save the process object in this instance
 			-	start a reader thread (reads child process stdout) and save the thread object in this instance
-				-	thread collects lines and puts them in line_buffer
+			-	thread thread target is function pipe_to_buffer
 		"""
 		self.line_buffer = [];
 		popen_args = [self.cmd] + self.args
 		self.process = subprocess.Popen(popen_args, stdout=subprocess.PIPE)
 		self.thread = threading.Thread(target=pipe_to_buffer, args=(), kwargs={'proc':self})
-
-		# self.process = subprocess.Popen(["ls", self.args[0]], stdout=subprocess.PIPE)
-		# self.process = subprocess.Popen(["ls", "/etc"], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-		# self.thread = threading.Thread(target=self.pipe_to_buffer, args=(self.process.stdout))
-
 		self.thread.start()
 
 	def poll(self) :
-		""" polls this instances child process to see if complete - returns None if still running """
+		""" polls this instances child process to see if complete - 
+		returns None if still running 
+		"""
 		return self.process.poll()
 
 	def flush_output(self, outfile) :
-		### writes the line_buffer to outfile and then clears line_buffer"""
+		""" writes the line_buffer to outfile and then clears line_buffer"""
 		if (not self.active) :
 			output_data = self.line_buffer
 			self.line_buffer = []
@@ -218,6 +200,7 @@ class Proc :
 
 	def subprocess_complete(self):
 		""" returns true if this instances subprocess has completed.
+		Though NOTE - the line_buffer may not be cleared yet
 		Throw exception if this function is called before a subprocess
 		has been started
 		"""
@@ -232,24 +215,24 @@ class Proc :
 		(self.poll() returns not None) and output has been flushed ie len(line_buffer) == 0
 			because all output has been flushed
 		"""
-		return (not self.active) and (len(self.line_buffer) == 0)
+		return (not self.active) and (len(self.line_buffer) == 0) # TODO - test process stopped or None
 
 
-# class Proc
+############## class Proc
 
 class ProcTable :
-
 	""" 
-	a collection of all the processes we can run
-	
-		nrpocs 	int
-		cmd 	array of strings
-		args	array of array of strings
-		pid		True/False
-	"""
+	Holds and manages a collection of Proc objects"""
 
 	
 	def __init__(self, outfile, nprocs, cmd, args, pid_flag):
+		""" 
+		outfile - 	open file where command output will go
+		nrpocs 	-	int number of concurrent processes to run and number of Proc objects in collection
+		cmd 	-	array of strings, a command string maybe with options
+		args	-	array of array of strings - a collection of groups of argument tokens
+		pid		-	pid flag True/False, option to print the subprocess pid at the start of command output
+		"""
 		self.args = args
 		self.nprocs = nprocs
 		self.cmd = cmd
