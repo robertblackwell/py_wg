@@ -293,14 +293,14 @@ class ProcTable :
 
 	def allocate(self) :
 		
-		""" allocate a line of arguments to any idle proc (if there are any arguments remaining) and starts it up again"""
+		""" allocate a group of arguments to any idle proc (if there are any arguments remaining) and starts it up again"""
 		
 		if len(self.args) == 0 :
 			return 
 		for p in self.procs:
 			if len(self.args) == 0 : #may have become empty as a reult of a previous iteration of the loop
 				break
-			if not p.active and (len(p.line_buffer) == 0):
+			if p.available() :
 				p.cmd = self.cmd
 				p.args = self.args.pop(0)
 				p.start()
