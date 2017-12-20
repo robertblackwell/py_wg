@@ -1,0 +1,4 @@
+-al ./
+/usr  /etc
+-al  /var
+/usr/local /usr/local/bin

@@ -6,8 +6,8 @@
 
 __version__ = "0.2.0"
 
-
 import sys
+import shlex
 import argparse
 from .processes import run
 from .arguments import collect
@@ -21,14 +21,14 @@ def main():
 
 	parser.add_argument('--cmd',	dest='cmd', 	default='', 	help="command (string) to be executed.")
 	parser.add_argument('--nargs',	dest='nargs', 	type=int, default='1', 	help="number of args to be found on each line of infile, default = 1.")
-	# parser.add_argument('--argsep',	dest='arg_seps',default=',', 	help="string that separates arguments on a line in infile default = ','.")
 	parser.add_argument('--nprocs',	dest='nprocs', 	type=int, default='1',	help="number of parallel process, default = 1.")
 
+	parser.add_argument('--stream',	action="store_true", 	help="treat input as a single string for the purposes of tokenizing")
 	parser.add_argument('--pid', 	action="store_true", 	help="prefixes each output line with pid of process that produced it")
 	args = parser.parse_args()
 
-	print("Executing bootstrap version %s." % __version__)
-	print("List of argument strings: %s" % sys.argv[1:])
+	# print("Executing bootstrap version %s." % __version__)
+	# print("List of argument strings: %s" % sys.argv[1:])
 
 	if( args.infile_path):
 		infile = open(args.infile_path)
@@ -40,7 +40,11 @@ def main():
 	else:
 		outfile = sys.stdout
 
-	arg_list = collect(infile, args.nargs)
+
+	arg_list = collect(infile, args.nargs, args.stream)
+	# in case the command has some args or options embedded in it
+	cmd_list = shlex.split(args.cmd, False, True)
+
 	if (not arg_list) or (len(arg_list) == 0):
 		print "input file has badly formed arguments"
 		exit(9)
