@@ -49,9 +49,9 @@ Outline of implementation
 """
 WAIT_INTERVAL = 0.25 # seconds
 DEBUG = False
-QWAIT = True
+QWAIT = False
 EVENTWAIT=False
-
+SEMAPHORE=True
 
 def	run(outfile, nprocs, cmd, arg_list, pid_flag) :
 	""" execute a command using nproc child processes
@@ -65,13 +65,15 @@ def	run(outfile, nprocs, cmd, arg_list, pid_flag) :
 		pid_flag	-	if True as the subprocess PID to the from of each output line
 	"""
 			
-	proc_table = ProcTable(nprocs, cmd, arg_list, pid_flag)
+	proc_table = ProcTable(outfile, nprocs, cmd, arg_list, pid_flag)
 
 	while ( not proc_table.finished()) :
 
 		proc_table.allocate()
 
-		if QWAIT:
+		if SEMAPHORE:
+			proc_table.wait_event()
+		elif QWAIT:
 			proc_table.wait_queue()
 			proc_table.process_output(outfile)
 		elif EVENTWAIT :
@@ -100,6 +102,7 @@ def pipe_to_buffer(**kwargs) :
 	"""
 
 	proc = kwargs['proc']
+	outfile = proc.outfile
 	pid = proc.process.pid
 	pipe = proc.process.stdout
 	while True:
@@ -116,6 +119,12 @@ def pipe_to_buffer(**kwargs) :
 		print "pipe_to_buffer {id}".format(id=proc.id_num)
 	proc.process.wait()
 	proc.active = False;
+
+	if SEMAPHORE:
+		proc.semaphore.acquire()
+		proc.flush_output(outfile)
+		proc.semaphore.release()
+		proc.event.set()
 	if QWAIT:
 		proc.queue.put(proc)
 	elif EVENTWAIT :
@@ -127,9 +136,11 @@ class Proc :
 
 	""" represents one of the processes we can start to run commands """
 
-	def __init__(self, id_num, queue, event, pid_flag):
+	def __init__(self, id_num, outfile, queue, event, semaphore, pid_flag):
 		self.active = False
 		self.id_num = id_num
+		self.outfile = outfile
+		self.semaphore = semaphore
 		self.pid_flag = pid_flag
 		self.cmd = None
 		self.args = None
@@ -238,18 +249,20 @@ class ProcTable :
 	"""
 
 	
-	def __init__(self, nprocs, cmd, args, pid_flag):
+	def __init__(self, outfile, nprocs, cmd, args, pid_flag):
 		self.args = args
 		self.nprocs = nprocs
 		self.cmd = cmd
+		self.outfile = outfile
 		self.procs = []
 
 		self.completion_queue = Queue.Queue()
 		self.completion_event = threading.Event()
+		self.semaphore = threading.Semaphore()
 
 		# setup the proc table with idle procs
 		for i in range(nprocs) :
-			self.procs += [Proc(i, self.completion_queue, self.completion_event, pid_flag)]
+			self.procs += [Proc(i, self.outfile, self.completion_queue, self.completion_event, self.semaphore, pid_flag)]
 	
 	def idle(self, i):
 		""" returns true if the i-th proc is not active """
