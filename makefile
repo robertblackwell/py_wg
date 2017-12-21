@@ -1,14 +1,10 @@
+NOC_SHEBANG="--python-shebang='/usr/bin/env python'"
 
 PREFIX=$(HOME)/.local
 
 
 install:
 	python setup.py install --prefix=$(PREFIX) 
-
-pex:
-	pip wheel -w . .	
-	pex -f $PWD MySQL-python ./ -e ipq.ipq:main $(RB_SHEBANG) -o xa.pex --disable-cache
-
 
 clean:
 	python setup.py clean

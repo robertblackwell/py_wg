@@ -1,0 +1,1776 @@
+ENTER pipe_to_buffer 35086 0
+ENTER pipe_to_buffer 35087 1
+EXIT pipe_to_buffer 35086 0[35086] XSTART
+
+SEM-ENTRY pipe_to_buffer  35086   0
+[35086] XSTART
+[35086] 1  00000   00000
+[35086] 2  00000   00000
+[35086] 3  00000   00000
+[35086] 00000 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35086] 
+[35086] 00000 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35086] 
+[35086] 00000 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35086] 
+[35086] 00000 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35086] 
+[35086] 00000 Why do we use it?
+[35086] 
+[35086] 00000 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35086] 
+[35086] 00000 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35086] 
+[35086] 00000 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35086] 
+[35086] 00000 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35086] 
+[35086] 00000 Where does it come from?
+[35086] 
+[35086] 00000 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35086] 
+[35086] 00000 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35086] 
+[35086] 00000 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35086] 
+[35086] 00000 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35086] 
+[35086] 00000 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35086] 
+[35086] 00000 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35086] 
+[35086] 00000 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35086] 
+[35086] 00000 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35086] 
+[35086] 00000 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35086] 
+[35086] 00000 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35086] 
+[35086] 00000 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35086] 
+[35086] 00000 Why do we use it?
+[35086] 
+[35086] 00000 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35086] 
+[35086] 00000 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35086] 
+[35086] 00000 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35086] 
+[35086] 00000 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35086] 
+[35086] 00000 Where does it come from?
+[35086] 
+[35086] 00000 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35086] 
+[35086] 00000 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35086] 
+[35086] 00000 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35086] 
+[35086] 00000 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35086] 
+[35086] 00000 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35086] 
+[35086] 00000 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35086] 
+[35086] 00000 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35086] 
+[35086] 00000 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35086] 
+[35086] 00000 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35086] 
+[35086] 00000 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35086] 
+[35086] 00000 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35086] 
+[35086] 00000 Why do we use it?
+[35086] 
+[35086] 00000 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35086] 
+[35086] 00000 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35086] 
+[35086] 00000 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35086] 
+[35086] 00000 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35086] 
+[35086] 00000 Where does it come from?
+[35086] 
+[35086] 00000 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35086] 
+[35086] 00000 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35086] 
+[35086] 00000 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35086] 
+[35086] 00000 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35086] 
+[35086] 00000 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35086] 
+[35086] 00000 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35086] 
+[35086] 00000 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35086] XFINISH
+SEM-AFTER pipe_to_buffer  35086   0
+ENTER pipe_to_buffer 35089 0
+EXIT pipe_to_buffer 35087 1[35087] XSTART
+
+SEM-ENTRY pipe_to_buffer  35087   1
+[35087] XSTART
+[35087] 1  11111   11111
+[35087] 2  11111   11111
+[35087] 3  11111   11111
+[35087] 11111 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35087] 
+[35087] 11111 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35087] 
+[35087] 11111 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35087] 
+[35087] 11111 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35087] 
+[35087] 11111 Why do we use it?
+[35087] 
+[35087] 11111 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35087] 
+[35087] 11111 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35087] 
+[35087] 11111 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35087] 
+[35087] 11111 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35087] 
+[35087] 11111 Where does it come from?
+[35087] 
+[35087] 11111 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35087] 
+[35087] 11111 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35087] 
+[35087] 11111 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35087] 
+[35087] 11111 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35087] 
+[35087] 11111 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35087] 
+[35087] 11111 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35087] 
+[35087] 11111 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35087] 
+[35087] 11111 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35087] 
+[35087] 11111 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35087] 
+[35087] 11111 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35087] 
+[35087] 11111 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35087] 
+[35087] 11111 Why do we use it?
+[35087] 
+[35087] 11111 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35087] 
+[35087] 11111 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35087] 
+[35087] 11111 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35087] 
+[35087] 11111 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35087] 
+[35087] 11111 Where does it come from?
+[35087] 
+[35087] 11111 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35087] 
+[35087] 11111 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35087] 
+[35087] 11111 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35087] 
+[35087] 11111 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35087] 
+[35087] 11111 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35087] 
+[35087] 11111 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35087] 
+[35087] 11111 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35087] 
+[35087] 11111 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35087] 
+[35087] 11111 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35087] 
+[35087] 11111 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35087] 
+[35087] 11111 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35087] 
+[35087] 11111 Why do we use it?
+[35087] 
+[35087] 11111 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35087] 
+[35087] 11111 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35087] 
+[35087] 11111 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35087] 
+[35087] 11111 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35087] 
+[35087] 11111 Where does it come from?
+[35087] 
+[35087] 11111 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35087] 
+[35087] 11111 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35087] 
+[35087] 11111 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35087] 
+[35087] 11111 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35087] 
+[35087] 11111 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35087] 
+[35087] 11111 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35087] 
+[35087] 11111 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35087] XFINISH
+SEM-AFTER pipe_to_buffer  35087   1
+ENTER pipe_to_buffer 35090 1
+EXIT pipe_to_buffer 35090 1[35090] XSTART
+
+SEM-ENTRY pipe_to_buffer  35090   1
+[35090] XSTART
+[35090] 1  33333   33333
+[35090] 2  33333   33333
+[35090] 3  33333   33333
+[35090] 33333 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35090] 
+[35090] 33333 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35090] 
+[35090] 33333 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35090] 
+[35090] 33333 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35090] 
+[35090] 33333 Why do we use it?
+[35090] 
+[35090] 33333 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35090] 
+[35090] 33333 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35090] 
+[35090] 33333 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35090] 
+[35090] 33333 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35090] 
+[35090] 33333 Where does it come from?
+[35090] 
+[35090] 33333 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35090] 
+[35090] 33333 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35090] 
+[35090] 33333 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35090] 
+[35090] 33333 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35090] 
+[35090] 33333 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35090] 
+[35090] 33333 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35090] 
+[35090] 33333 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35090] 
+[35090] 33333 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35090] 
+[35090] 33333 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35090] 
+[35090] 33333 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35090] 
+[35090] 33333 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35090] 
+[35090] 33333 Why do we use it?
+[35090] 
+[35090] 33333 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35090] 
+[35090] 33333 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35090] 
+[35090] 33333 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35090] 
+[35090] 33333 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35090] 
+[35090] 33333 Where does it come from?
+[35090] 
+[35090] 33333 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35090] 
+[35090] 33333 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35090] 
+[35090] 33333 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35090] 
+[35090] 33333 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35090] 
+[35090] 33333 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35090] 
+[35090] 33333 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35090] 
+[35090] 33333 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35090] 
+[35090] 33333 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35090] 
+[35090] 33333 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35090] 
+[35090] 33333 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35090] 
+[35090] 33333 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35090] 
+[35090] 33333 Why do we use it?
+[35090] 
+[35090] 33333 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35090] 
+[35090] 33333 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35090] 
+[35090] 33333 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35090] 
+[35090] 33333 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35090] 
+[35090] 33333 Where does it come from?
+[35090] 
+[35090] 33333 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35090] 
+[35090] 33333 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35090] 
+[35090] 33333 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35090] 
+[35090] 33333 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35090] 
+[35090] 33333 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35090] 
+[35090] 33333 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35090] 
+[35090] 33333 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35090] XFINISH
+SEM-AFTER pipe_to_buffer  35090   1
+ENTER pipe_to_buffer 35092 1
+EXIT pipe_to_buffer 35089 0[35089] XSTART
+
+SEM-ENTRY pipe_to_buffer  35089   0
+[35089] XSTART
+[35089] 1  22222   22222
+[35089] 2  22222   22222
+[35089] 3  22222   22222
+[35089] 22222 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35089] 
+[35089] 22222 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35089] 
+[35089] 22222 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35089] 
+[35089] 22222 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35089] 
+[35089] 22222 Why do we use it?
+[35089] 
+[35089] 22222 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35089] 
+[35089] 22222 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35089] 
+[35089] 22222 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35089] 
+[35089] 22222 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35089] 
+[35089] 22222 Where does it come from?
+[35089] 
+[35089] 22222 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35089] 
+[35089] 22222 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35089] 
+[35089] 22222 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35089] 
+[35089] 22222 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35089] 
+[35089] 22222 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35089] 
+[35089] 22222 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35089] 
+[35089] 22222 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35089] 
+[35089] 22222 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35089] 
+[35089] 22222 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35089] 
+[35089] 22222 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35089] 
+[35089] 22222 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35089] 
+[35089] 22222 Why do we use it?
+[35089] 
+[35089] 22222 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35089] 
+[35089] 22222 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35089] 
+[35089] 22222 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35089] 
+[35089] 22222 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35089] 
+[35089] 22222 Where does it come from?
+[35089] 
+[35089] 22222 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35089] 
+[35089] 22222 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35089] 
+[35089] 22222 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35089] 
+[35089] 22222 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35089] 
+[35089] 22222 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35089] 
+[35089] 22222 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35089] 
+[35089] 22222 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35089] 
+[35089] 22222 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35089] 
+[35089] 22222 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35089] 
+[35089] 22222 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35089] 
+[35089] 22222 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35089] 
+[35089] 22222 Why do we use it?
+[35089] 
+[35089] 22222 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35089] 
+[35089] 22222 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35089] 
+[35089] 22222 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35089] 
+[35089] 22222 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35089] 
+[35089] 22222 Where does it come from?
+[35089] 
+[35089] 22222 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35089] 
+[35089] 22222 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35089] 
+[35089] 22222 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35089] 
+[35089] 22222 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35089] 
+[35089] 22222 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35089] 
+[35089] 22222 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35089] 
+[35089] 22222 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35089] XFINISH
+SEM-AFTER pipe_to_buffer  35089   0
+ENTER pipe_to_buffer 35093 0
+EXIT pipe_to_buffer 35092 1[35092] XSTART
+
+SEM-ENTRY pipe_to_buffer  35092   1
+[35092] XSTART
+[35092] 1  44444   44444
+[35092] 2  44444   44444
+[35092] 3  44444   44444
+[35092] 44444 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35092] 
+[35092] 44444 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35092] 
+[35092] 44444 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35092] 
+[35092] 44444 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35092] 
+[35092] 44444 Why do we use it?
+[35092] 
+[35092] 44444 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35092] 
+[35092] 44444 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35092] 
+[35092] 44444 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35092] 
+[35092] 44444 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35092] 
+[35092] 44444 Where does it come from?
+[35092] 
+[35092] 44444 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35092] 
+[35092] 44444 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35092] 
+[35092] 44444 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35092] 
+[35092] 44444 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35092] 
+[35092] 44444 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35092] 
+[35092] 44444 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35092] 
+[35092] 44444 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35092] 
+[35092] 44444 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35092] 
+[35092] 44444 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35092] 
+[35092] 44444 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35092] 
+[35092] 44444 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35092] 
+[35092] 44444 Why do we use it?
+[35092] 
+[35092] 44444 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35092] 
+[35092] 44444 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35092] 
+[35092] 44444 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35092] 
+[35092] 44444 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35092] 
+[35092] 44444 Where does it come from?
+[35092] 
+[35092] 44444 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35092] 
+[35092] 44444 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35092] 
+[35092] 44444 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35092] 
+[35092] 44444 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35092] 
+[35092] 44444 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35092] 
+[35092] 44444 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35092] 
+[35092] 44444 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35092] 
+[35092] 44444 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35092] 
+[35092] 44444 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35092] 
+[35092] 44444 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35092] 
+[35092] 44444 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35092] 
+[35092] 44444 Why do we use it?
+[35092] 
+[35092] 44444 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35092] 
+[35092] 44444 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35092] 
+[35092] 44444 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35092] 
+[35092] 44444 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35092] 
+[35092] 44444 Where does it come from?
+[35092] 
+[35092] 44444 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35092] 
+[35092] 44444 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35092] 
+[35092] 44444 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35092] 
+[35092] 44444 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35092] 
+[35092] 44444 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35092] 
+[35092] 44444 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35092] 
+[35092] 44444 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35092] XFINISH
+SEM-AFTER pipe_to_buffer  35092   1
+ENTER pipe_to_buffer 35094 1
+EXIT pipe_to_buffer 35093 0[35093] XSTART
+
+SEM-ENTRY pipe_to_buffer  35093   0
+[35093] XSTART
+[35093] 1  55555   55555
+[35093] 2  55555   55555
+[35093] 3  55555   55555
+[35093] 55555 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35093] 
+[35093] 55555 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35093] 
+[35093] 55555 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35093] 
+[35093] 55555 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35093] 
+[35093] 55555 Why do we use it?
+[35093] 
+[35093] 55555 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35093] 
+[35093] 55555 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35093] 
+[35093] 55555 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35093] 
+[35093] 55555 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35093] 
+[35093] 55555 Where does it come from?
+[35093] 
+[35093] 55555 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35093] 
+[35093] 55555 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35093] 
+[35093] 55555 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35093] 
+[35093] 55555 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35093] 
+[35093] 55555 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35093] 
+[35093] 55555 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35093] 
+[35093] 55555 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35093] 
+[35093] 55555 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35093] 
+[35093] 55555 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35093] 
+[35093] 55555 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35093] 
+[35093] 55555 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35093] 
+[35093] 55555 Why do we use it?
+[35093] 
+[35093] 55555 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35093] 
+[35093] 55555 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35093] 
+[35093] 55555 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35093] 
+[35093] 55555 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35093] 
+[35093] 55555 Where does it come from?
+[35093] 
+[35093] 55555 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35093] 
+[35093] 55555 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35093] 
+[35093] 55555 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35093] 
+[35093] 55555 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35093] 
+[35093] 55555 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35093] 
+[35093] 55555 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35093] 
+[35093] 55555 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35093] 
+[35093] 55555 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35093] 
+[35093] 55555 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35093] 
+[35093] 55555 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35093] 
+[35093] 55555 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35093] 
+[35093] 55555 Why do we use it?
+[35093] 
+[35093] 55555 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35093] 
+[35093] 55555 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35093] 
+[35093] 55555 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35093] 
+[35093] 55555 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35093] 
+[35093] 55555 Where does it come from?
+[35093] 
+[35093] 55555 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35093] 
+[35093] 55555 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35093] 
+[35093] 55555 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35093] 
+[35093] 55555 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35093] 
+[35093] 55555 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35093] 
+[35093] 55555 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35093] 
+[35093] 55555 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35093] XFINISH
+SEM-AFTER pipe_to_buffer  35093   0
+ENTER pipe_to_buffer 35095 0
+EXIT pipe_to_buffer 35094 1[35094] XSTART
+
+SEM-ENTRY pipe_to_buffer  35094   1
+[35094] XSTART
+[35094] 1  66666   66666
+[35094] 2  66666   66666
+[35094] 3  66666   66666
+[35094] 66666 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35094] 
+[35094] 66666 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35094] 
+[35094] 66666 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35094] 
+[35094] 66666 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35094] 
+[35094] 66666 Why do we use it?
+[35094] 
+[35094] 66666 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35094] 
+[35094] 66666 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35094] 
+[35094] 66666 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35094] 
+[35094] 66666 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35094] 
+[35094] 66666 Where does it come from?
+[35094] 
+[35094] 66666 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35094] 
+[35094] 66666 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35094] 
+[35094] 66666 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35094] 
+[35094] 66666 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35094] 
+[35094] 66666 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35094] 
+[35094] 66666 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35094] 
+[35094] 66666 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35094] 
+[35094] 66666 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35094] 
+[35094] 66666 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35094] 
+[35094] 66666 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35094] 
+[35094] 66666 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35094] 
+[35094] 66666 Why do we use it?
+[35094] 
+[35094] 66666 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35094] 
+[35094] 66666 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35094] 
+[35094] 66666 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35094] 
+[35094] 66666 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35094] 
+[35094] 66666 Where does it come from?
+[35094] 
+[35094] 66666 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35094] 
+[35094] 66666 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35094] 
+[35094] 66666 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35094] 
+[35094] 66666 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35094] 
+[35094] 66666 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35094] 
+[35094] 66666 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35094] 
+[35094] 66666 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35094] 
+[35094] 66666 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35094] 
+[35094] 66666 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35094] 
+[35094] 66666 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35094] 
+[35094] 66666 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35094] 
+[35094] 66666 Why do we use it?
+[35094] 
+[35094] 66666 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35094] 
+[35094] 66666 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35094] 
+[35094] 66666 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35094] 
+[35094] 66666 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35094] 
+[35094] 66666 Where does it come from?
+[35094] 
+[35094] 66666 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35094] 
+[35094] 66666 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35094] 
+[35094] 66666 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35094] 
+[35094] 66666 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35094] 
+[35094] 66666 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35094] 
+[35094] 66666 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35094] 
+[35094] 66666 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35094] XFINISH
+SEM-AFTER pipe_to_buffer  35094   1
+ENTER pipe_to_buffer 35096 1
+EXIT pipe_to_buffer 35095 0[35095] XSTART
+
+SEM-ENTRY pipe_to_buffer  35095   0
+[35095] XSTART
+[35095] 1  77777   77777
+[35095] 2  77777   77777
+[35095] 3  77777   77777
+[35095] 77777 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35095] 
+[35095] 77777 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35095] 
+[35095] 77777 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35095] 
+[35095] 77777 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35095] 
+[35095] 77777 Why do we use it?
+[35095] 
+[35095] 77777 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35095] 
+[35095] 77777 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35095] 
+[35095] 77777 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35095] 
+[35095] 77777 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35095] 
+[35095] 77777 Where does it come from?
+[35095] 
+[35095] 77777 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35095] 
+[35095] 77777 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35095] 
+[35095] 77777 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35095] 
+[35095] 77777 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35095] 
+[35095] 77777 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35095] 
+[35095] 77777 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35095] 
+[35095] 77777 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35095] 
+[35095] 77777 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35095] 
+[35095] 77777 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35095] 
+[35095] 77777 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35095] 
+[35095] 77777 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35095] 
+[35095] 77777 Why do we use it?
+[35095] 
+[35095] 77777 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35095] 
+[35095] 77777 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35095] 
+[35095] 77777 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35095] 
+[35095] 77777 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35095] 
+[35095] 77777 Where does it come from?
+[35095] 
+[35095] 77777 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35095] 
+[35095] 77777 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35095] 
+[35095] 77777 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35095] 
+[35095] 77777 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35095] 
+[35095] 77777 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35095] 
+[35095] 77777 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35095] 
+[35095] 77777 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35095] 
+[35095] 77777 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35095] 
+[35095] 77777 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35095] 
+[35095] 77777 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35095] 
+[35095] 77777 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35095] 
+[35095] 77777 Why do we use it?
+[35095] 
+[35095] 77777 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35095] 
+[35095] 77777 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35095] 
+[35095] 77777 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35095] 
+[35095] 77777 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35095] 
+[35095] 77777 Where does it come from?
+[35095] 
+[35095] 77777 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35095] 
+[35095] 77777 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35095] 
+[35095] 77777 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35095] 
+[35095] 77777 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35095] 
+[35095] 77777 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35095] 
+[35095] 77777 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35095] 
+[35095] 77777 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35095] XFINISH
+SEM-AFTER pipe_to_buffer  35095   0
+ENTER pipe_to_buffer 35097 0
+EXIT pipe_to_buffer 35096 1[35096] XSTART
+
+SEM-ENTRY pipe_to_buffer  35096   1
+[35096] XSTART
+[35096] 1  88888   88888
+[35096] 2  88888   88888
+[35096] 3  88888   88888
+[35096] 88888 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35096] 
+[35096] 88888 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35096] 
+[35096] 88888 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35096] 
+[35096] 88888 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35096] 
+[35096] 88888 Why do we use it?
+[35096] 
+[35096] 88888 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35096] 
+[35096] 88888 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35096] 
+[35096] 88888 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35096] 
+[35096] 88888 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35096] 
+[35096] 88888 Where does it come from?
+[35096] 
+[35096] 88888 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35096] 
+[35096] 88888 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35096] 
+[35096] 88888 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35096] 
+[35096] 88888 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35096] 
+[35096] 88888 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35096] 
+[35096] 88888 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35096] 
+[35096] 88888 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35096] 
+[35096] 88888 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35096] 
+[35096] 88888 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35096] 
+[35096] 88888 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35096] 
+[35096] 88888 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35096] 
+[35096] 88888 Why do we use it?
+[35096] 
+[35096] 88888 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35096] 
+[35096] 88888 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35096] 
+[35096] 88888 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35096] 
+[35096] 88888 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35096] 
+[35096] 88888 Where does it come from?
+[35096] 
+[35096] 88888 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35096] 
+[35096] 88888 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35096] 
+[35096] 88888 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35096] 
+[35096] 88888 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35096] 
+[35096] 88888 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35096] 
+[35096] 88888 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35096] 
+[35096] 88888 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35096] 
+[35096] 88888 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35096] 
+[35096] 88888 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35096] 
+[35096] 88888 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35096] 
+[35096] 88888 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35096] 
+[35096] 88888 Why do we use it?
+[35096] 
+[35096] 88888 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35096] 
+[35096] 88888 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35096] 
+[35096] 88888 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35096] 
+[35096] 88888 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35096] 
+[35096] 88888 Where does it come from?
+[35096] 
+[35096] 88888 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35096] 
+[35096] 88888 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35096] 
+[35096] 88888 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35096] 
+[35096] 88888 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35096] 
+[35096] 88888 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35096] 
+[35096] 88888 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35096] 
+[35096] 88888 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35096] XFINISH
+SEM-AFTER pipe_to_buffer  35096   1
+ENTER pipe_to_buffer 35098 1
+EXIT pipe_to_buffer 35097 0[35097] XSTART
+
+SEM-ENTRY pipe_to_buffer  35097   0
+[35097] XSTART
+[35097] 1  99999   99999
+[35097] 2  99999   99999
+[35097] 3  99999   99999
+[35097] 99999 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35097] 
+[35097] 99999 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35097] 
+[35097] 99999 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35097] 
+[35097] 99999 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35097] 
+[35097] 99999 Why do we use it?
+[35097] 
+[35097] 99999 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35097] 
+[35097] 99999 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35097] 
+[35097] 99999 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35097] 
+[35097] 99999 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35097] 
+[35097] 99999 Where does it come from?
+[35097] 
+[35097] 99999 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35097] 
+[35097] 99999 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35097] 
+[35097] 99999 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35097] 
+[35097] 99999 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35097] 
+[35097] 99999 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35097] 
+[35097] 99999 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35097] 
+[35097] 99999 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35097] 
+[35097] 99999 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35097] 
+[35097] 99999 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35097] 
+[35097] 99999 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35097] 
+[35097] 99999 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35097] 
+[35097] 99999 Why do we use it?
+[35097] 
+[35097] 99999 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35097] 
+[35097] 99999 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35097] 
+[35097] 99999 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35097] 
+[35097] 99999 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35097] 
+[35097] 99999 Where does it come from?
+[35097] 
+[35097] 99999 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35097] 
+[35097] 99999 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35097] 
+[35097] 99999 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35097] 
+[35097] 99999 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35097] 
+[35097] 99999 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35097] 
+[35097] 99999 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35097] 
+[35097] 99999 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35097] 
+[35097] 99999 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35097] 
+[35097] 99999 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35097] 
+[35097] 99999 typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35097] 
+[35097] 99999 with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35097] 
+[35097] 99999 Why do we use it?
+[35097] 
+[35097] 99999 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35097] 
+[35097] 99999 has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35097] 
+[35097] 99999 packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35097] 
+[35097] 99999 Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35097] 
+[35097] 99999 Where does it come from?
+[35097] 
+[35097] 99999 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35097] 
+[35097] 99999 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35097] 
+[35097] 99999 going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35097] 
+[35097] 99999 Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35097] 
+[35097] 99999 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35097] 
+[35097] 99999 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35097] 
+[35097] 99999 Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35097] XFINISH
+SEM-AFTER pipe_to_buffer  35097   0
+ENTER pipe_to_buffer 35099 0
+EXIT pipe_to_buffer 35098 1[35098] XSTART
+
+SEM-ENTRY pipe_to_buffer  35098   1
+[35098] XSTART
+[35098] 1  AAAAA   AAAAA
+[35098] 2  AAAAA   AAAAA
+[35098] 3  AAAAA   AAAAA
+[35098] AAAAA Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35098] 
+[35098] AAAAA when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35098] 
+[35098] AAAAA typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35098] 
+[35098] AAAAA with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35098] 
+[35098] AAAAA Why do we use it?
+[35098] 
+[35098] AAAAA It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35098] 
+[35098] AAAAA has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35098] 
+[35098] AAAAA packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35098] 
+[35098] AAAAA Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35098] 
+[35098] AAAAA Where does it come from?
+[35098] 
+[35098] AAAAA Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35098] 
+[35098] AAAAA Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35098] 
+[35098] AAAAA going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35098] 
+[35098] AAAAA Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35098] 
+[35098] AAAAA The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35098] 
+[35098] AAAAA The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35098] 
+[35098] AAAAA Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35098] 
+[35098] AAAAA Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35098] 
+[35098] AAAAA when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35098] 
+[35098] AAAAA typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35098] 
+[35098] AAAAA with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35098] 
+[35098] AAAAA Why do we use it?
+[35098] 
+[35098] AAAAA It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35098] 
+[35098] AAAAA has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35098] 
+[35098] AAAAA packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35098] 
+[35098] AAAAA Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35098] 
+[35098] AAAAA Where does it come from?
+[35098] 
+[35098] AAAAA Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35098] 
+[35098] AAAAA Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35098] 
+[35098] AAAAA going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35098] 
+[35098] AAAAA Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35098] 
+[35098] AAAAA The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35098] 
+[35098] AAAAA The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35098] 
+[35098] AAAAA Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35098] 
+[35098] AAAAA Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35098] 
+[35098] AAAAA when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35098] 
+[35098] AAAAA typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35098] 
+[35098] AAAAA with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35098] 
+[35098] AAAAA Why do we use it?
+[35098] 
+[35098] AAAAA It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35098] 
+[35098] AAAAA has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35098] 
+[35098] AAAAA packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35098] 
+[35098] AAAAA Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35098] 
+[35098] AAAAA Where does it come from?
+[35098] 
+[35098] AAAAA Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35098] 
+[35098] AAAAA Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35098] 
+[35098] AAAAA going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35098] 
+[35098] AAAAA Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35098] 
+[35098] AAAAA The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35098] 
+[35098] AAAAA The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35098] 
+[35098] AAAAA Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35098] XFINISH
+SEM-AFTER pipe_to_buffer  35098   1
+ENTER pipe_to_buffer 35100 1
+EXIT pipe_to_buffer 35099 0[35099] XSTART
+
+SEM-ENTRY pipe_to_buffer  35099   0
+[35099] XSTART
+[35099] 1  BBBBB   BBBBB
+[35099] 2  BBBBB   BBBBB
+[35099] 3  BBBBB   BBBBB
+[35099] BBBBB Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35099] 
+[35099] BBBBB when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35099] 
+[35099] BBBBB typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35099] 
+[35099] BBBBB with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35099] 
+[35099] BBBBB Why do we use it?
+[35099] 
+[35099] BBBBB It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35099] 
+[35099] BBBBB has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35099] 
+[35099] BBBBB packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35099] 
+[35099] BBBBB Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35099] 
+[35099] BBBBB Where does it come from?
+[35099] 
+[35099] BBBBB Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35099] 
+[35099] BBBBB Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35099] 
+[35099] BBBBB going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35099] 
+[35099] BBBBB Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35099] 
+[35099] BBBBB The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35099] 
+[35099] BBBBB The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35099] 
+[35099] BBBBB Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35099] 
+[35099] BBBBB Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35099] 
+[35099] BBBBB when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35099] 
+[35099] BBBBB typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35099] 
+[35099] BBBBB with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35099] 
+[35099] BBBBB Why do we use it?
+[35099] 
+[35099] BBBBB It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35099] 
+[35099] BBBBB has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35099] 
+[35099] BBBBB packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35099] 
+[35099] BBBBB Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35099] 
+[35099] BBBBB Where does it come from?
+[35099] 
+[35099] BBBBB Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35099] 
+[35099] BBBBB Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35099] 
+[35099] BBBBB going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35099] 
+[35099] BBBBB Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35099] 
+[35099] BBBBB The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35099] 
+[35099] BBBBB The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35099] 
+[35099] BBBBB Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35099] 
+[35099] BBBBB Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35099] 
+[35099] BBBBB when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35099] 
+[35099] BBBBB typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35099] 
+[35099] BBBBB with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35099] 
+[35099] BBBBB Why do we use it?
+[35099] 
+[35099] BBBBB It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35099] 
+[35099] BBBBB has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35099] 
+[35099] BBBBB packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35099] 
+[35099] BBBBB Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35099] 
+[35099] BBBBB Where does it come from?
+[35099] 
+[35099] BBBBB Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35099] 
+[35099] BBBBB Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35099] 
+[35099] BBBBB going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35099] 
+[35099] BBBBB Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35099] 
+[35099] BBBBB The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35099] 
+[35099] BBBBB The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35099] 
+[35099] BBBBB Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35099] XFINISH
+SEM-AFTER pipe_to_buffer  35099   0
+ENTER pipe_to_buffer 35101 0
+EXIT pipe_to_buffer 35100 1[35100] XSTART
+
+SEM-ENTRY pipe_to_buffer  35100   1
+[35100] XSTART
+[35100] 1  CCCCC   CCCCC
+[35100] 2  CCCCC   CCCCC
+[35100] 3  CCCCC   CCCCC
+[35100] CCCCC Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35100] 
+[35100] CCCCC when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35100] 
+[35100] CCCCC typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35100] 
+[35100] CCCCC with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35100] 
+[35100] CCCCC Why do we use it?
+[35100] 
+[35100] CCCCC It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35100] 
+[35100] CCCCC has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35100] 
+[35100] CCCCC packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35100] 
+[35100] CCCCC Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35100] 
+[35100] CCCCC Where does it come from?
+[35100] 
+[35100] CCCCC Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35100] 
+[35100] CCCCC Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35100] 
+[35100] CCCCC going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35100] 
+[35100] CCCCC Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35100] 
+[35100] CCCCC The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35100] 
+[35100] CCCCC The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35100] 
+[35100] CCCCC Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35100] 
+[35100] CCCCC Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35100] 
+[35100] CCCCC when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35100] 
+[35100] CCCCC typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35100] 
+[35100] CCCCC with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35100] 
+[35100] CCCCC Why do we use it?
+[35100] 
+[35100] CCCCC It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35100] 
+[35100] CCCCC has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35100] 
+[35100] CCCCC packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35100] 
+[35100] CCCCC Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35100] 
+[35100] CCCCC Where does it come from?
+[35100] 
+[35100] CCCCC Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35100] 
+[35100] CCCCC Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35100] 
+[35100] CCCCC going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35100] 
+[35100] CCCCC Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35100] 
+[35100] CCCCC The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35100] 
+[35100] CCCCC The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35100] 
+[35100] CCCCC Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35100] 
+[35100] CCCCC Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35100] 
+[35100] CCCCC when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35100] 
+[35100] CCCCC typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35100] 
+[35100] CCCCC with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35100] 
+[35100] CCCCC Why do we use it?
+[35100] 
+[35100] CCCCC It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35100] 
+[35100] CCCCC has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35100] 
+[35100] CCCCC packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35100] 
+[35100] CCCCC Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35100] 
+[35100] CCCCC Where does it come from?
+[35100] 
+[35100] CCCCC Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35100] 
+[35100] CCCCC Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35100] 
+[35100] CCCCC going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35100] 
+[35100] CCCCC Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35100] 
+[35100] CCCCC The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35100] 
+[35100] CCCCC The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35100] 
+[35100] CCCCC Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35100] XFINISH
+SEM-AFTER pipe_to_buffer  35100   1
+ENTER pipe_to_buffer 35102 1
+EXIT pipe_to_buffer 35101 0[35101] XSTART
+
+SEM-ENTRY pipe_to_buffer  35101   0
+[35101] XSTART
+[35101] 1  DDDDD   DDDDD
+[35101] 2  DDDDD   DDDDD
+[35101] 3  DDDDD   DDDDD
+[35101] DDDDD Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35101] 
+[35101] DDDDD when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35101] 
+[35101] DDDDD typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35101] 
+[35101] DDDDD with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35101] 
+[35101] DDDDD Why do we use it?
+[35101] 
+[35101] DDDDD It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35101] 
+[35101] DDDDD has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35101] 
+[35101] DDDDD packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35101] 
+[35101] DDDDD Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35101] 
+[35101] DDDDD Where does it come from?
+[35101] 
+[35101] DDDDD Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35101] 
+[35101] DDDDD Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35101] 
+[35101] DDDDD going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35101] 
+[35101] DDDDD Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35101] 
+[35101] DDDDD The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35101] 
+[35101] DDDDD The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35101] 
+[35101] DDDDD Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35101] 
+[35101] DDDDD Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35101] 
+[35101] DDDDD when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35101] 
+[35101] DDDDD typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35101] 
+[35101] DDDDD with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35101] 
+[35101] DDDDD Why do we use it?
+[35101] 
+[35101] DDDDD It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35101] 
+[35101] DDDDD has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35101] 
+[35101] DDDDD packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35101] 
+[35101] DDDDD Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35101] 
+[35101] DDDDD Where does it come from?
+[35101] 
+[35101] DDDDD Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35101] 
+[35101] DDDDD Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35101] 
+[35101] DDDDD going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35101] 
+[35101] DDDDD Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35101] 
+[35101] DDDDD The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35101] 
+[35101] DDDDD The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35101] 
+[35101] DDDDD Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35101] 
+[35101] DDDDD Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35101] 
+[35101] DDDDD when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35101] 
+[35101] DDDDD typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35101] 
+[35101] DDDDD with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35101] 
+[35101] DDDDD Why do we use it?
+[35101] 
+[35101] DDDDD It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35101] 
+[35101] DDDDD has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35101] 
+[35101] DDDDD packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35101] 
+[35101] DDDDD Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35101] 
+[35101] DDDDD Where does it come from?
+[35101] 
+[35101] DDDDD Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35101] 
+[35101] DDDDD Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35101] 
+[35101] DDDDD going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35101] 
+[35101] DDDDD Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35101] 
+[35101] DDDDD The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35101] 
+[35101] DDDDD The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35101] 
+[35101] DDDDD Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35101] XFINISH
+SEM-AFTER pipe_to_buffer  35101   0
+ENTER pipe_to_buffer 35103 0
+EXIT pipe_to_buffer 35102 1[35102] XSTART
+
+SEM-ENTRY pipe_to_buffer  35102   1
+[35102] XSTART
+[35102] 1  EEEEE   EEEEE
+[35102] 2  EEEEE   EEEEE
+[35102] 3  EEEEE   EEEEE
+[35102] EEEEE Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35102] 
+[35102] EEEEE when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35102] 
+[35102] EEEEE typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35102] 
+[35102] EEEEE with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35102] 
+[35102] EEEEE Why do we use it?
+[35102] 
+[35102] EEEEE It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35102] 
+[35102] EEEEE has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35102] 
+[35102] EEEEE packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35102] 
+[35102] EEEEE Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35102] 
+[35102] EEEEE Where does it come from?
+[35102] 
+[35102] EEEEE Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35102] 
+[35102] EEEEE Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35102] 
+[35102] EEEEE going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35102] 
+[35102] EEEEE Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35102] 
+[35102] EEEEE The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35102] 
+[35102] EEEEE The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35102] 
+[35102] EEEEE Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35102] 
+[35102] EEEEE Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35102] 
+[35102] EEEEE when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35102] 
+[35102] EEEEE typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35102] 
+[35102] EEEEE with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35102] 
+[35102] EEEEE Why do we use it?
+[35102] 
+[35102] EEEEE It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35102] 
+[35102] EEEEE has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35102] 
+[35102] EEEEE packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35102] 
+[35102] EEEEE Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35102] 
+[35102] EEEEE Where does it come from?
+[35102] 
+[35102] EEEEE Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35102] 
+[35102] EEEEE Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35102] 
+[35102] EEEEE going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35102] 
+[35102] EEEEE Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35102] 
+[35102] EEEEE The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35102] 
+[35102] EEEEE The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35102] 
+[35102] EEEEE Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35102] 
+[35102] EEEEE Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35102] 
+[35102] EEEEE when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35102] 
+[35102] EEEEE typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35102] 
+[35102] EEEEE with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35102] 
+[35102] EEEEE Why do we use it?
+[35102] 
+[35102] EEEEE It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35102] 
+[35102] EEEEE has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35102] 
+[35102] EEEEE packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35102] 
+[35102] EEEEE Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35102] 
+[35102] EEEEE Where does it come from?
+[35102] 
+[35102] EEEEE Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35102] 
+[35102] EEEEE Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35102] 
+[35102] EEEEE going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35102] 
+[35102] EEEEE Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35102] 
+[35102] EEEEE The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35102] 
+[35102] EEEEE The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35102] 
+[35102] EEEEE Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35102] XFINISH
+SEM-AFTER pipe_to_buffer  35102   1
+EXIT pipe_to_buffer 35103 0[35103] XSTART
+
+SEM-ENTRY pipe_to_buffer  35103   0
+[35103] XSTART
+[35103] 1  FFFFF   FFFFF
+[35103] 2  FFFFF   FFFFF
+[35103] 3  FFFFF   FFFFF
+[35103] FFFFF Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35103] 
+[35103] FFFFF when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35103] 
+[35103] FFFFF typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35103] 
+[35103] FFFFF with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35103] 
+[35103] FFFFF Why do we use it?
+[35103] 
+[35103] FFFFF It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35103] 
+[35103] FFFFF has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35103] 
+[35103] FFFFF packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35103] 
+[35103] FFFFF Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35103] 
+[35103] FFFFF Where does it come from?
+[35103] 
+[35103] FFFFF Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35103] 
+[35103] FFFFF Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35103] 
+[35103] FFFFF going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35103] 
+[35103] FFFFF Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35103] 
+[35103] FFFFF The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35103] 
+[35103] FFFFF The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35103] 
+[35103] FFFFF Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35103] 
+[35103] FFFFF Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35103] 
+[35103] FFFFF when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35103] 
+[35103] FFFFF typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35103] 
+[35103] FFFFF with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35103] 
+[35103] FFFFF Why do we use it?
+[35103] 
+[35103] FFFFF It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35103] 
+[35103] FFFFF has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35103] 
+[35103] FFFFF packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35103] 
+[35103] FFFFF Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35103] 
+[35103] FFFFF Where does it come from?
+[35103] 
+[35103] FFFFF Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35103] 
+[35103] FFFFF Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35103] 
+[35103] FFFFF going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35103] 
+[35103] FFFFF Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35103] 
+[35103] FFFFF The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35103] 
+[35103] FFFFF The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35103] 
+[35103] FFFFF Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35103] 
+[35103] FFFFF Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+[35103] 
+[35103] FFFFF when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+[35103] 
+[35103] FFFFF typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+[35103] 
+[35103] FFFFF with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[35103] 
+[35103] FFFFF Why do we use it?
+[35103] 
+[35103] FFFFF It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it
+[35103] 
+[35103] FFFFF has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+[35103] 
+[35103] FFFFF packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+[35103] 
+[35103] FFFFF Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+[35103] 
+[35103] FFFFF Where does it come from?
+[35103] 
+[35103] FFFFF Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+[35103] 
+[35103] FFFFF Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+[35103] 
+[35103] FFFFF going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+[35103] 
+[35103] FFFFF Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+[35103] 
+[35103] FFFFF The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+[35103] 
+[35103] FFFFF The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+[35103] 
+[35103] FFFFF Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+[35103] XFINISH
+SEM-AFTER pipe_to_buffer  35103   0

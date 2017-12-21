@@ -1,0 +1,1 @@
+cat test/t_args | python xa-runner.py --cmd 'test/tcmd.py' --nargs 1 --nproc 8 --pid

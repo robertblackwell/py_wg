@@ -48,10 +48,12 @@ Outline of implementation
 
 """
 WAIT_INTERVAL = 0.25 # seconds
-DEBUG = False
-QWAIT = False
-EVENTWAIT=False
-SEMAPHORE=True
+DEBUG 		= False
+QWAIT 		= False
+EVENTWAIT 	= False
+SEMAPHORE 	= True
+PARANOID 	= True 	# turns on paranoid checking - mostly to test the pipe reader does not have the Proc instance changed under its feet
+TESTCMD = False		# should only be used with the command test/tcmd.py as this puts firs and last markets in its output stream
 
 def	run(outfile, nprocs, cmd, arg_list, pid_flag) :
 	""" execute a command using nproc child processes
@@ -64,12 +66,26 @@ def	run(outfile, nprocs, cmd, arg_list, pid_flag) :
 		arg_list	-	array of arrays of tokens which are additional arguments for each invocation.
 		pid_flag	-	if True as the subprocess PID to the from of each output line
 	"""
-			
-	proc_table = ProcTable(outfile, nprocs, cmd, arg_list, pid_flag)
+
+	semaphore = threading.Semaphore()	
+	""" this semaphore protects the proc_table, proc instances and outfile from concurrent access
+	One semaphore for all of these is a bit heavy handed but this is not a high performance app
+	"""
+
+	proc_table = ProcTable(outfile, semaphore, nprocs, cmd, arg_list, pid_flag)
+
+	if PARANOID:
+		main_thread = threading.currentThread()
+		main_thread_ident = main_thread.ident
 
 	while ( not proc_table.finished()) :
 
+		if PARANOID and threading.currentThread().ident != main_thread_ident :
+			assert(False)
+
+		semaphore.acquire()
 		proc_table.allocate()
+		semaphore.release()
 
 		if SEMAPHORE:
 			proc_table.wait_event()
@@ -87,26 +103,50 @@ def	run(outfile, nprocs, cmd, arg_list, pid_flag) :
 
 
 def pipe_to_buffer(**kwargs) :
-	"""reads from a pipe connected to a child process's stdout.
-	Saves each line in a line_buffer associated with a Proc instance.
+	"""
+	pipe_to_buffer - reads from a pipe connected to a child process's stdout,
+	and saves each line in a line_buffer associated with a Proc instance.
 	After EOF is detected (zero-length read) calls proc.process.wait() to wait
 	on the termination of the child process. 
 	Once child process is finished acquire semaphore that protects the outfile
-	and writes all line to outfile. After releasing the semphore
-	signals the main process that a Proc is available via proc.event.set()
+	and writes all lines to outfile. 
+	After releasing the semphore signals the main thread/process that a Proc is available via proc.event.set()
 
 	Keyword args:
 		"proc" - a proc instance
 	Returns
 		nothing
+	Throws
+		only on PARANOID checks when enabled
 	"""
 
 	proc = kwargs['proc']
 	outfile = proc.outfile
 	pid = proc.process.pid
 	pipe = proc.process.stdout
+	id_num = proc.id_num
+	thread_id = proc.thread.ident
+
+
+	if DEBUG:
+		print "ENTER pipe_to_buffer {pid} {id}".format(pid=pid,id=proc.id_num)
+
+	if PARANOID:
+		if len(proc.line_buffer) > 0 :
+			assert(False)
+
 	while True:
-		line = pipe.readline()
+
+		if PARANOID :
+			""" test the proc has not been pulled out from under us"""
+			if id_num != proc.id_num :
+				assert(False)
+			if thread_id != proc.thread.ident :
+				assert(False)
+			if proc.process.pid != pid :
+				assert(False)
+
+		line = proc.process.stdout.readline()
 		if len(line) == 0 : #and (proc.process.poll() is not None ):
 			break
 
@@ -115,17 +155,42 @@ def pipe_to_buffer(**kwargs) :
 		else:
 			proc.line_buffer += [line]
 
+	if PARANOID  and TESTCMD:
+		""" test that we have captured all of the test programs
+		output """
+		first = proc.line_buffer[0]
+		last = proc.line_buffer[-1]
+		first_test = "XSTART\n"
+		last_test = "XFINISH\n"
+		if proc.pid_flag:
+			first_test = "[{pid}] ".format(pid=pid) + first_test
+			last_test =  "[{pid}] ".format(pid=pid) + last_test
+
+		if (first != first_test) :
+			assert(first == first_test)
+		if (last != last_test) :
+			assert(last == last_test)
+
 	if DEBUG:
-		print "pipe_to_buffer {id}".format(id=proc.id_num)
+		print "EXIT pipe_to_buffer {pid} {id}".format(pid=pid,id=proc.id_num) + proc.line_buffer[0]
 	proc.process.wait()
 	proc.active = False;
 
 	if SEMAPHORE:
 		proc.semaphore.acquire()
+		
+		if DEBUG:
+			print "SEM-ENTRY pipe_to_buffer ", pid, " ", proc.id_num
+		
 		proc.flush_output(outfile)
 		proc.semaphore.release()
+		
+		if DEBUG:
+			print "SEM-AFTER pipe_to_buffer ", pid, " ", proc.id_num
+	
 		proc.event.set()
-	if QWAIT:
+	
+	elif QWAIT:
 		proc.queue.put(proc)
 	elif EVENTWAIT :
 		proc.event.set()
@@ -151,7 +216,7 @@ class Proc :
 		# group of args to add to command string
 		self.args = None
 		# child process that will be popen'd to run command
-		self.subprocess = None
+		self.process = None
 		# thread that will read from child process stdout
 		self.thread = None
 		# buffer that will hold lines of output from child process while it is running
@@ -162,7 +227,7 @@ class Proc :
 		self.queue = queue 	# a common queue shared by all Procs - this is where procs signal to parent process that
 							# the child subprocss is complete
 
-	def prime(self, cmd, args) :
+	def xprime(self, cmd, args) :
 		""" adds a new cmd and args value to this proc in prep for starting 
 			cmd - array of strings, command perhaps with options
 			args array of strings, additional command line tokens
@@ -170,39 +235,78 @@ class Proc :
 		self.cmd = cmd
 		self.args = args
 
-	def start(self) :
-		""" this is where the heavy lifting is done
-			-	start a new child process and save the process object in this instance
-			-	start a reader thread (reads child process stdout) and save the thread object in this instance
-			-	thread thread target is function pipe_to_buffer
+	def execute(self, cmd, args) :
+		""" 
+		exec - popen()'s a process and starts a reader thread to execute THE command with the given arg group.
+
+		Args:
+			cmd (array of string) - the command to execute
+			args (array of tokens)-	the group of args to add to the command
+		Returns:
+			nothing
+		Throws:
+			nothing
 		"""
+
+		self.cmd = cmd
+		self.args = args
+
+		if PARANOID:
+			assert(self.available())  # tests line_buffer empty, active=False and (self.process == None or self.poll() is not None)
+
 		self.line_buffer = [];
 		popen_args = [self.cmd] + self.args
 		self.process = subprocess.Popen(popen_args, stdout=subprocess.PIPE)
 		self.thread = threading.Thread(target=pipe_to_buffer, args=(), kwargs={'proc':self})
+		self.thread_ident = self.thread.ident
 		self.thread.start()
 
 	def poll(self) :
-		""" polls this instances child process to see if complete - 
-		returns None if still running 
+		""" 
+		poll - pools the process associated with this Proc instance
+
+		Args:
+			none
+		Returns:
+			None if the process is still running
+		Throws
+			If called before process is allocated
 		"""
 		return self.process.poll()
 
 	def flush_output(self, outfile) :
-		""" writes the line_buffer to outfile and then clears line_buffer"""
-		if (not self.active) :
+		""" 
+		flushoutput - writes the line_buffer to outfile and then clears line_buffer
+
+		Args:
+			outfile - an open file
+		Returns:
+			nothing
+		Throws:
+			if self is available() - that is self is active, self.process==None or self.poll() returns None 
+		"""
+		if (not self.active)  :
 			output_data = self.line_buffer
 			self.line_buffer = []
 			for line in output_data :
 				outfile.write(line)
+			outfile.flush()
 			return
 		raise Exception(" should not be trying to get output from an active proc")
 
 	def subprocess_complete(self):
-		""" returns true if this instances subprocess has completed.
-		Though NOTE - the line_buffer may not be cleared yet
-		Throw exception if this function is called before a subprocess
-		has been started
+		""" 
+		subprocess_complete - determines if the process asscoated with this Proc instance has completed
+
+		Args:
+			none
+		Returns:
+
+			true if this instances subprocess has completed.
+			Though NOTE - the line_buffer may not be cleared yet
+		Throw:
+			if this function is called before a subprocess has been allocated to this Proc instance
+			that is if self.process == None
 		"""
 		if self.process is None :
 			raise Exception("should not be calling subprocess_complete - no subprocess allocated")
@@ -211,11 +315,21 @@ class Proc :
 		return False
 
 	def available(self):
-		"""available for re-use - means not active, and subprocess has completed
-		(self.poll() returns not None) and output has been flushed ie len(line_buffer) == 0
-			because all output has been flushed
 		"""
-		return (not self.active) and (len(self.line_buffer) == 0) # TODO - test process stopped or None
+		available - determines if a Proc instance is ready for use/reuse 
+		Args:
+			none
+		Returns:
+			true is active flag is false, and subprocess has completed
+			( self.poll() returns not None) and output has been flushed ie len(line_buffer) == 0
+
+		NOTE: this function is a big deal - get it wrong and Proc instances start
+		getting re-used before they are fiinished doing the previous job
+		"""
+		return \
+			(not self.active) \
+			and (len(self.line_buffer) == 0) \
+			and (self.process is None or self.poll() is not None)
 
 
 ############## class Proc
@@ -225,8 +339,10 @@ class ProcTable :
 	Holds and manages a collection of Proc objects"""
 
 	
-	def __init__(self, outfile, nprocs, cmd, args, pid_flag):
+	def __init__(self, outfile, semaphore, nprocs, cmd, args, pid_flag):
 		""" 
+		ProcTable initializer
+
 		outfile - 	open file where command output will go
 		nrpocs 	-	int number of concurrent processes to run and number of Proc objects in collection
 		cmd 	-	array of strings, a command string maybe with options
@@ -241,32 +357,20 @@ class ProcTable :
 
 		self.completion_queue = Queue.Queue()
 		self.completion_event = threading.Event()
-		self.semaphore = threading.Semaphore()
+		self.semaphore = semaphore
 
 		# setup the proc table with idle procs
 		for i in range(nprocs) :
 			self.procs += [Proc(i, self.outfile, self.completion_queue, self.completion_event, self.semaphore, pid_flag)]
 	
-	def idle(self, i):
-		""" returns true if the i-th proc is not active """
-		return (self.active(i) == False)
-
-	def active(self, i) :
-		""" returns true if the i-th proc is active """
-		return self.procs[i].active
-
-	def prime(self, i, cmd, args):
-		""" prime the i-th proc """
-		self.procs[i].prime(cmd, args)
-
-	def set_idle(self, i):
-		""" mark the i-th proc as not active """
-		self.procs[i].active = False
-
 	def finished(self) :
+		""" 
+		finished - determines if all jobs have run to completion and all output written to stdout
 
-		""" returns true when there are no more arg groups to allocate and
-		all the output from previous executions have been flushed"""
+		returns true -	when there are no more arg groups to allocate and
+						all the output from previous executions have been flushed
+						and all Proc objects are waiting idle for more work
+		"""
 
 		for p in self.procs :
 			if not p.available():
@@ -275,8 +379,8 @@ class ProcTable :
 		return (len(self.args) == 0)
 
 	def allocate(self) :
-		
-		""" allocate a group of arguments to any idle proc (if there are any arguments remaining) and starts it up again"""
+		""" 
+		allocates a group of arguments to an idle proc if there are any unused argument groups remaining and and start that proc running"""
 		
 		if len(self.args) == 0 :
 			return 
@@ -284,9 +388,10 @@ class ProcTable :
 			if len(self.args) == 0 : #may have become empty as a reult of a previous iteration of the loop
 				break
 			if p.available() :
-				p.cmd = self.cmd
-				p.args = self.args.pop(0)
-				p.start()
+				p.execute(self.cmd, self.args.pop(0))
+				# p.cmd = self.cmd
+				# p.args = self.args.pop(0)
+				# p.start()
 	
 	def wait_queue(self):
 
@@ -314,12 +419,15 @@ class ProcTable :
 				break
 
 	def wait_event(self):
+		"""
+		wait for an event so signal a subprocess has completed
+		"""
 		self.completion_event.wait()
 
 
 	def wait(self) :
 		""" 
-		waits for one or more process to finish, mark them as idle and return.
+		Waits for one or more process to finish, mark them as idle and return.
 		the implementation of this wait is a simple sleep - poll loop.
 		at some point shoud use select 
 		"""
