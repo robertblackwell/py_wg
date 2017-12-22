@@ -22,3 +22,12 @@ push:
 
 _license:
 	licenser -n $(MYNAME) -e $(MYEMAIL) -l "MIT" -p "workgroup"
+
+bumppatch:
+	bumpversion --current-version `python setup.py --version` patch
+
+bumpminor:
+	bumpversion --current-version `python setup.py --version` minor
+
+bumpmajor:
+	bumpversion --current-version `python setup.py --version` major
