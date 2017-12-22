@@ -9,7 +9,8 @@ __version__ = "0.2.0"
 import sys
 import shlex
 import argparse
-from .processes import run
+#from .processes import run
+from .wg import run
 from .arguments import collect
 
 def main():
@@ -25,6 +26,7 @@ def main():
 
 	parser.add_argument('--stream',	action="store_true", 	help="treat input as a single string for the purposes of tokenizing")
 	parser.add_argument('--pid', 	action="store_true", 	help="prefixes each output line with pid of process that produced it")
+	parser.add_argument('--debug', 	action="store_true", 	help="prints out the command to be executed rather than execute the command")
 	args = parser.parse_args()
 
 	# print("Executing bootstrap version %s." % __version__)
@@ -46,14 +48,19 @@ def main():
 	cmd_list = shlex.split(args.cmd, False, True)
 
 	if (not arg_list) or (len(arg_list) == 0):
-		print "input file has badly formed arguments"
+		print ("input file has badly formed arguments")
 		exit(9)
 
 	if ( not args.cmd) or ( len(args.cmd) == 0) :
-		print "cmd error"
+		print ("cmd error")
 		exit(9)
+	
+	options = {
+		"pid" : args.pid,
+		"debug" : args.debug
+	}
 
-	run(outfile, args.nprocs, args.cmd, arg_list, args.pid)
+	run(outfile, args.nprocs, args.cmd, arg_list, options)
 
 # if __name__ == '__main__' :
 # 	main()

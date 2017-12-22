@@ -3,6 +3,7 @@ from random import *
 import os
 import sys
 import time
+from pprint import pprint
 
 # a script for testing workgang
 # outputs lines of text at random intervals between .1 and 1 second intervals
@@ -13,7 +14,7 @@ dir = os.path.dirname(os.path.abspath(__file__))
 f = open(dir + "/text")
 
 x = randint(1, 10)
-interval = float(x * 1) / 1000.0
+interval = float(x * 5) / 1000.0
 if sleep:
 	time.sleep(interval)
 
@@ -28,8 +29,9 @@ for line in f :
 	lines += [line]
 for line in lines :
 	x = randint(1,10)
-	interval = float(x*1)/1000.0
+	interval = float(x*5)/1000.0
 	if sleep:
 		time.sleep( interval)
-	print sys.argv[1], line
+	# pprint(line)
+	sys.stdout.write(sys.argv[1] + line)
 print "XFINISH"
