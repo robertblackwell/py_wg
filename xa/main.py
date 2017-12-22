@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 
-
-"""bootstrap.bootstrap: provides entry point main()."""
-
-
 __version__ = "0.2.0"
 
 import sys
 import shlex
 import argparse
-#from .processes import run
+from pprint import pprint
 from .wg import run
 from .arguments import collect
 
@@ -24,13 +20,15 @@ def main():
 	parser.add_argument('--nargs',	dest='nargs', 	type=int, default='1', 	help="number of args to be found on each line of infile, default = 1.")
 	parser.add_argument('--nprocs',	dest='nprocs', 	type=int, default='1',	help="number of parallel process, default = 1.")
 
-	parser.add_argument('--stream',	action="store_true", 	help="treat input as a single string for the purposes of tokenizing")
-	parser.add_argument('--pid', 	action="store_true", 	help="prefixes each output line with pid of process that produced it")
-	parser.add_argument('--debug', 	action="store_true", 	help="prints out the command to be executed rather than execute the command")
+	parser.add_argument('--stream',	action="store_true", 	help="treat input as a single string rather than a series of line for the purposes of tokenizing into arguments")
+	# parser.add_argument('--pid', 	action="store_true", 	help="prefixes each output line with pid of process that produced it")
+	parser.add_argument('--debug', 	action="store_true", 	help="prints out the command to be executed rather than execute the command, to help problem solve ")
 	args = parser.parse_args()
 
-	# print("Executing bootstrap version %s." % __version__)
-	# print("List of argument strings: %s" % sys.argv[1:])
+	
+	if args.version :
+		print __version__
+		sys.exit(0)
 
 	if( args.infile_path):
 		infile = open(args.infile_path)
@@ -44,8 +42,6 @@ def main():
 
 
 	arg_list = collect(infile, args.nargs, args.stream)
-	# in case the command has some args or options embedded in it
-	cmd_list = shlex.split(args.cmd, False, True)
 
 	if (not arg_list) or (len(arg_list) == 0):
 		print ("input file has badly formed arguments")

@@ -10,7 +10,7 @@ from setuptools import setup
 
 version = re.search(
     '^__version__\s*=\s*"(.*)"',
-    open('src/main.py').read(),
+    open('xa/main.py').read(),
     re.M
     ).group(1)
 
@@ -23,10 +23,10 @@ setup(
     name = "xa",
     packages = ["xa"],
     entry_points = {
-        "console_scripts": ['xa = src.main:main']
+        "console_scripts": ['xa = xa.main:main']
         },
     version = version,
-    description = "Python command to ....",
+    description = "Python command to run commands in parallel (think xargs and GNU parallel) without intermixing the output",
     long_description = long_descr,
     author = "Robert Blackwell",
     author_email = "rob@whiteacorn.com",
