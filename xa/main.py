@@ -52,7 +52,6 @@ def main():
 		exit(9)
 	
 	options = {
-		"pid" : args.pid,
 		"debug" : args.debug
 	}
 
