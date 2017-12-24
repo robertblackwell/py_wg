@@ -59,7 +59,7 @@ Using `pip`
 
 	pip install pyargs
 	
-Alternatively download or clone the `github` repo and from the project directory
+Alternatively download or clone the [github repo](https://github.com/robertblackwell/pyargs) and from the project directory
 
 	python setup.py install
 	
