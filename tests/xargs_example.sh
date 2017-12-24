@@ -5,7 +5,7 @@ TESTS_DIR=`pwd`/tests
 
 D=$(basename `pwd`)
 
-if [ "$D" != "py_wg" ]; then
+if [ "$D" != "pyargs" ]; then
 	echo "should be run from project root - pwd is" `pwd`
 else 
 	# notice that the output from each instance of the command is not contiguous

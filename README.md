@@ -1,10 +1,10 @@
 
-# pargs, Python Args Utility
+# pyargs, Python Args Utility
 
 
-`pargs` is a python cli program to run a series of scripts or commands using multiple set or arguments provided from a file or stdin and to use more than one process to achive some parallel execution. 
+`pyargs` is a python cli program to run a series of scripts or commands using multiple set or arguments provided from a file or stdin and to use more than one process to achive some parallel execution. 
 
-The name is deliberately a play on `xargs` as pargs is a simplified alternative to `xargs`.
+The name is deliberately a play on `xargs` as pyargs is a simplified alternative to `xargs`.
 
 The motivation for this project was to get parallel execution of commands where the output from each command invocation is kept in a contigous block rather than being intermixed.
 
@@ -55,7 +55,7 @@ optional arguments:
 
 Using `pip`
 
-	pip install pargs
+	pip install pyargs
 	
 Alternatively download or clone the `github` repo and from the project directory
 
@@ -67,7 +67,7 @@ Pythonic testing is via
 
 	python setup.py test
 	
-There are only two test cases each of which reside in the `tests/test_pargs.py`. These tests
+There are only two test cases each of which reside in the `tests/test_pyargs.py`. These tests
 cases execute shell scripts
 
 	./tests/end_to_end_test.sh
@@ -78,7 +78,7 @@ and
 	
 ### ./tests/end\_to\_end_test.sh
 
-This script executes multiple instances of `./tests/writer_cmd.py` using  `pargs` with arguments provided from `tests/test_args`. The output is piped into, and inspected by `tests/reader_cmd.py` which parses that output and verifies that it is as expected.
+This script executes multiple instances of `./tests/writer_cmd.py` using  `pyargs` with arguments provided from `tests/test_args`. The output is piped into, and inspected by `tests/reader_cmd.py` which parses that output and verifies that it is as expected.
 
 ### ./tests/writer\_to\_reader\_test.sh
 
@@ -89,13 +89,15 @@ is using valid test data.
 
 The options `--debug`, `--mark`, `--lines` maybe require a little more explanation.
 
+The script `./tests/ping_example.sh` demonstrates the `--line` and `--mark` options, and `./tests/ping_example_nl_m.sh` demonstrates the `--mark` option without `--lines`.
+
 - --debug
 	
-	When set `xargs` does not execute the commands but rather outputs the full command that would have been executed. This enables a user to see how `pargs` has interpreted its options and input. This option can be helpful in debugging commands tha fail. 
+	When set `xargs` does not execute the commands but rather outputs the full command that would have been executed. This enables a user to see how `pyargs` has interpreted its options and input. This option can be helpful in debugging commands tha fail. 
 	
 - --lines
 
-	The original motivation for `pargs` was to keep all the output from a single command invocation in a single contiguous block. However this may not always be necessary so this option allows or requires that `pargs` will print each line of output from command invocations as soon as possible. This means that lines from different command invocations can be intermixed. Though note that concurrent output is still coordinated to ensure that lines do not corrupt each other.
+	The original motivation for `pyargs` was to keep all the output from a single command invocation in a single contiguous block. However this may not always be necessary so this option allows or requires that `pyargs` will print each line of output from command invocations as soon as possible. This means that lines from different command invocations can be intermixed. Though note that concurrent output is still coordinated to ensure that lines do not corrupt each other.
 	
 	In order that each line of output can be attributed to the command that created it, in this mode, each output line is prefixed with the command string of the command that caused the output. 
 	
@@ -105,9 +107,9 @@ The options `--debug`, `--mark`, `--lines` maybe require a little more explanati
 	
 	To assist users examine such a situation the ``--mark` options is provided.
 	
-	When `--mark` is set `pargs` will modify the output in the following manner:
+	When `--mark` is set `pyargs` will modify the output in the following manner:
 	
-	-	just before the execution of a command instance starts `pargs` will output a string like
+	-	just before the execution of a command instance starts `pyargs` will output a string like
 	
 		```
 		MARK: <the command string to be executed> ===================
@@ -121,10 +123,10 @@ The options `--debug`, `--mark`, `--lines` maybe require a little more explanati
 		
 		END OUTPUT[<command string>]
 		``` 
-		These lines (between and including START and END) should be contiguous and should be the output from only one command and that command should be the one identified in the START and END lines (which or course should be the same command). If any of this is not the case you have found a bug in `pargs`.
+		These lines (between and including START and END) should be contiguous and should be the output from only one command and that command should be the one identified in the START and END lines (which or course should be the same command). If any of this is not the case you have found a bug in `pyargs`.
 
 ## Examples
 
-The two scripts `tests/ping_example.sh` and `tests/curl_example.sh` demonstrate the usage of `pargs`. 
+The two scripts `tests/ping_example.sh` and `tests/curl_example.sh` demonstrate the usage of `pyargs`. 
 
 Note that both these examples attempt to contact hosts/urls that do not exist and will hence timeout. Hence the output include error messages. 

@@ -3,7 +3,7 @@ import subprocess
 import os
 from pprint import pprint
 
-class test_py_wg_test(unittest.TestCase):
+class test_pyargs_test(unittest.TestCase):
 
     def test_end_to_end(self) :
 		dir = os.path.dirname(os.path.abspath(__file__))

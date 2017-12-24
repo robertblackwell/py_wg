@@ -7,42 +7,56 @@
 import re
 from setuptools import setup
 
+# https://coderwall.com/p/qawuyq/use-markdown-readme-s-in-python-modules
+import os
+
+
+def long_desc() :
+    if os.path.exists('README.md'):
+        long_descr = open('README.md').read()
+    else: 
+        long_descr = 'Add a fallback short description here'
+    return long_descr
+
+long_description = long_desc()
+
 
 version = re.search(
     '^__version__\s*=\s*"(.*)"',
-    open('py_wg/main.py').read(),
+    open('pyargs/main.py').read(),
     re.M
     ).group(1)
 
 
-with open("README.rst", "rb") as f:
-    long_descr = f.read().decode("utf-8")
+# with open("README.rst", "rb") as f:
+#     long_descr = f.read().decode("utf-8")
 
 
 setup(
-    name = "py_wg",
-    packages = ["py_wg"],
+    name = "pyargs",
+    packages = ["pyargs"],
     entry_points = {
-        "console_scripts": ['py_wg = py_wg.main:main']
+        "console_scripts": ['pyargs = pyargs.main:main']
         },
     version = version,
-    description = "Python script to run commands in parallel (think xargs and GNU parallel) without intermixing the output. The name `py_wg` is for python_workgang.",
-    long_description = long_descr,
+    description = "Python script to run commands in parallel (think xargs and GNU parallel) without intermixing the output. The name `pyargs` is for python_workgang.",
+    long_description = long_description,
     
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2.7',
-        'Topic :: Text Processing :: Linguistic',
-      ],
+        'Intended Audience :: System Administrators',
+        'Topic :: System :: Systems Administration',
+        'Topic :: Utilities'      ],
 
     keywords='xargs, parallel, cli',
 
-    test_suite="tests.test_py_wg",
+    test_suite="tests.test_pyargs",
 
     author = "Robert Blackwell",
     author_email = "rob@whiteacorn.com",
-    url = "http://github.com/robertoblackwell/py_wg.git",
+    url = "http://github.com/robertoblackwell/pyargs.git",
     license ='MIT',
     zip_safe = False
     )

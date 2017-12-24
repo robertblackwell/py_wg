@@ -5,7 +5,7 @@ TESTS_DIR=`pwd`/tests
 
 D=$(basename `pwd`)
 
-if [ "$D" != "py_wg" ]; then
+if [ "$D" != "pyargs" ]; then
 	echo "should be run from project root - pwd is" `pwd`
 else 
 	echo "Warning - this test takes a while and is silent if successful"
