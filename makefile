@@ -51,6 +51,7 @@ readme:
 .PHONY: dist
 dist:
 	rm -rfv pyargs.egg*
+	make readme
 	make git_commit
 	make bumpminor
 	python setup.py sdist
