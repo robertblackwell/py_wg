@@ -5,7 +5,7 @@
 """Convenience wrapper for running bootstrap directly from source tree."""
 
 
-from xa.main import main
+from py_wg.main import main
 
 
 if __name__ == '__main__':

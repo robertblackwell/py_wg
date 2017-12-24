@@ -1,1 +1,0 @@
-cat test/t_args | python wg-runner.py --cmd '/Users/rob/richard/xa/test/tcmd.py' --nargs 1 --nproc 4

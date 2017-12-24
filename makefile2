@@ -31,3 +31,14 @@ bumpminor:
 
 bumpmajor:
 	bumpversion --current-version `python setup.py --version` major
+
+
+git_push: git_commit
+	git push origin master
+
+git_commit:
+	git add -A
+	git commit -a
+
+git_list_tags:
+	git show-ref --tags -d

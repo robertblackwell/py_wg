@@ -1,3 +1,9 @@
+
+"""
+This module provides a single public function `collect` which collects `argument` strings from
+the input file.
+"""
+
 from pprint import pprint
 import shlex
 
@@ -5,18 +11,25 @@ use_shlex = True
 separator = ","
 DEBUG=False
 
-"""
-module collects argument groups from the infile.  
-Currently VERY simple minded and could certainly do with making more user-friendly and robust
-	-	treats each separate line as a separate group
-	-	each group must have the correct number o tokens
-	
-"""
 
 def collect(infile, nargs, stream_flag):
-	""" 
-	extracts command arguments from each line in a file and returns an array of arrays containing those arguments 
-	fail if the number of arguments found on each line is not equal to nargs
+	""" collects arguments in groups of nargs from infile. 
+
+	- If stream_flag  is false requires that each line contain exacctly nargs arguments,
+	- If stream_flag is true processes infile as a single string and requires that there be an integral multiple of nargs
+		arguments in the entire file
+
+	Args:
+		infile (open file)	:	file or argument strings
+		nargs(int)			:	number of arguments required for each group
+		stream_flag(bool)	:	process the file line by line or as a single string
+
+	Returns:
+		an array of array of strings where each inner array has precisely nargs elements
+
+	Raises:
+		if the number of arguments is no a multiple of nargs
+
 	"""
 	lines = [];
 	for line in infile:
@@ -29,6 +42,21 @@ def collect(infile, nargs, stream_flag):
 	return arg_set;
 
 def _stream_collect(lines, nargs):
+	"""
+	processes a list of text lines from infile in streaming mode, 
+	collecting groups of nargs strings from the the lines
+
+	Args:
+		lines (array of string) : lines of input
+		nargs(int)				: number of arguments from input for each invocation
+
+	Returns:
+		an array of array of strings where each inner array has precisely nargs elements
+
+	Riases:
+		if the number of arguments is no a multiple of nargs
+
+	"""
 	a = [];
 	for line in lines :
 		a += line
@@ -65,9 +93,20 @@ def _stream_collect(lines, nargs):
 
 
 def _collect(lines, nargs):
-	""" 
-	extracts the command arguments from each line in lines and returns an array of arrays those arguments 
-	fail if the number of arguments found on each line is not equal to nargs
+	"""
+	processes a list of text lines from infile in NON streaming mode, 
+	collecting a single groups of nargs strings from each line in lines
+
+	Args:
+		lines (array of string) :
+		nargs(int) :
+
+	Returns:
+		an array of array of strings where each inner array has precisely nargs elements
+
+	Raises:
+		if the number of arguments in any line is not precisly nargs 
+
 	"""
 	args_list = []
 	for line in lines:
