@@ -2,7 +2,7 @@
 # pyargs, Python Args Utility
 
 
-`pyargs` is a python cli program to run a series of scripts or commands using multiple set or arguments provided from a file or stdin and to use more than one process to achive some parallel execution. 
+`pyargs` is a python cli program to run a series of scripts or commands using multiple set or arguments provided from a file or stdin and to use more than one process to achieve some parallel execution. 
 
 The name is deliberately a play on `xargs` as pyargs is a simplified alternative to `xargs`.
 
