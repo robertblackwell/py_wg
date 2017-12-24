@@ -47,3 +47,9 @@ git_list_tags:
 
 readme:
 	pandoc --from=markdown --to=rst --output=README.rst README.md
+
+upload: 
+	make git_commit
+	make bumpminor
+	python setup.py sdist
+	python setup.py upload

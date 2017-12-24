@@ -12,10 +12,10 @@ import os
 
 
 def long_desc() :
-    if os.path.exists('README.md'):
-        long_descr = open('README.md').read()
-    else: 
-        long_descr = 'Add a fallback short description here'
+    # if os.path.exists('README.md'):
+    #     long_descr = open('README.md').read()
+    # else: 
+    #     long_descr = 'Add a fallback short description here'
 
     with open("README.rst", "rb") as f:
         long_descr = f.read().decode("utf-8")
@@ -42,7 +42,7 @@ setup(
         "console_scripts": ['pyargs = pyargs.main:main']
         },
     version = version,
-    description = "Python script to run commands in parallel (think xargs and GNU parallel) without intermixing the output.",
+    description = "A python script to run commands in parallel (think xargs and GNU parallel) without intermixing the output.",
     long_description = long_description,
     
     classifiers=[
