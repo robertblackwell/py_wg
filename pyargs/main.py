@@ -7,7 +7,7 @@ See the `README` file for details of the arguments and options.
 
 """
 
-__version__ = "0.6.0"
+__version__ = "0.7.0"
 
 import sys
 import shlex
