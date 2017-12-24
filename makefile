@@ -32,9 +32,11 @@ bumpminor:
 bumpmajor:
 	bumpversion --current-version `python setup.py --version` major
 
+git_push_tags:
+	git push --tags origin master
 
 git_push: git_commit
-	git push origin master
+	git push --tags origin master
 
 git_commit:
 	git add -A
@@ -42,3 +44,6 @@ git_commit:
 
 git_list_tags:
 	git show-ref --tags -d
+
+readme:
+	pandoc --from=markdown --to=rst --output=README.rst README.md
