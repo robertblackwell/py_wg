@@ -1,7 +1,7 @@
 pyargs, Python Args Utility
 ===========================
 
-Version: 0.12.0
+Version: 0.13.0
 
 ``pyargs`` is a python cli program to run a series of scripts or
 commands using multiple set or arguments provided from a file or stdin
