@@ -41,8 +41,8 @@ git_push: git_commit
 	git push --tags origin master
 
 git_commit:
-	git add -A
-	git commit -a
+	git add -A | true
+	git commit -a | true
 
 git_list_tags:
 	git show-ref --tags -d
