@@ -8,8 +8,9 @@ The name is deliberately a play on `xargs` as pyargs is a simplified alternative
 
 The motivation for this project was to get parallel execution of commands where the output from each command invocation is kept in a contigous block rather than being intermixed.
 
-To make for easy replacement of `xargs` in existing scripts I used the same general usage pattern as `xargs` and kept of few of the optioni short names the same.
+To make for easy replacement of `xargs` in existing scripts I used the same general usage pattern as `xargs` and kept of few of the option short names the same.
 
+I should offer an apology to the __python__ community. This is my first python effort so there is probably a lot in this small project the is no very __*pythonic*__.
 
 ## Usage
 

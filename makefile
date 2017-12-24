@@ -1,8 +1,8 @@
 NOC_SHEBANG="--python-shebang='/usr/bin/env python'"
 MYNAME="Robert Blackwell"
 MYEMAIL="rob@whiteacorn.com"
-PROJECT_NAME=xa
-LICENSE=gpl-3.0
+PROJECT_NAME="pyargs"
+LICENSE=MIT
 PREFIX=$(HOME)/.local
 
 
@@ -21,7 +21,7 @@ push:
 	git commit -a
 
 _license:
-	licenser -n $(MYNAME) -e $(MYEMAIL) -l "MIT" -p "workgroup"
+	licenser -n $(MYNAME) -e $(MYEMAIL) -l "MIT" -p "pyargs"
 
 bumppatch:
 	bumpversion --current-version `python setup.py --version` patch
