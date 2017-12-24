@@ -48,6 +48,13 @@ git_list_tags:
 readme:
 	pandoc --from=markdown --to=rst --output=README.rst README.md
 
+.PHONY: dist
+dist:
+	rm -rfv pyargs.egg*
+	make git_commit
+	make bumpminor
+	python setup.py sdist
+
 upload: 
 	make git_commit
 	make bumpminor
