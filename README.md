@@ -93,11 +93,11 @@ The script `./tests/ping_example.sh` demonstrates the `--line` and `--mark` opti
 
 - --debug
 	
-	When set `xargs` does not execute the commands but rather outputs the full command that would have been executed. This enables a user to see how `pyargs` has interpreted its options and input. This option can be helpful in debugging commands tha fail. 
+	When set `pyargs` does not execute the commands but rather outputs the full command that would have been executed. This enables a user to see how `pyargs` has interpreted its options and input. This option can be helpful in debugging commands that fail. 
 	
 - --lines
 
-	The original motivation for `pyargs` was to keep all the output from a single command invocation in a single contiguous block. However this may not always be necessary so this option allows or requires that `pyargs` will print each line of output from command invocations as soon as possible. This means that lines from different command invocations can be intermixed. Though note that concurrent output is still coordinated to ensure that lines do not corrupt each other.
+	The original motivation for `pyargs` was to keep all the output from a single command invocation in a single contiguous block. However this may not always be necessary so this option allows or requires that `pyargs` will print each line of output from command invocations as soon as possible without waiting for the command to complete. This means that lines from different command invocations can be intermixed. Though __note__ that concurrent output is still coordinated to ensure that lines do not corrupt each other.
 	
 	In order that each line of output can be attributed to the command that created it, in this mode, each output line is prefixed with the command string of the command that caused the output. 
 	
