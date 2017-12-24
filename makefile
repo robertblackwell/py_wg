@@ -5,6 +5,8 @@ PROJECT_NAME="pyargs"
 LICENSE=MIT
 PREFIX=$(HOME)/.local
 
+# this is rag-tap collection of convenience options, without any systematic
+# set for buildiing and distributing. Sorry
 
 install:
 	python setup.py install --prefix=$(PREFIX) 
@@ -57,7 +59,5 @@ dist:
 	python setup.py sdist
 
 upload: 
-	make git_commit
-	make bumpminor
-	python setup.py sdist
+	make dist
 	python setup.py upload
